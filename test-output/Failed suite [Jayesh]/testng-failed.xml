@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Jayesh]]">
+  <test name="Report(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="april23.FirstTestNGClass">
+        <methods>
+          <include name="cbanking"/>
+          <include name="tearDown"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- april23.FirstTestNGClass -->
+      <class name="april23.ThirdTestNGClass">
+        <methods>
+          <include name="LoginMultipletimes"/>
+        </methods>
+      </class> <!-- april23.ThirdTestNGClass -->
+    </classes>
+  </test> <!-- Report(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Jayesh]] -->

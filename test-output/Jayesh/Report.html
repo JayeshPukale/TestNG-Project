@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Report</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Report</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 28 19:45:05 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>76 seconds (76055 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='april23.ThirdTestNGClass.LoginMultipletimes()'><b>LoginMultipletimes</b><br>Test class: april23.ThirdTestNGClass</td>
+<td></td>
+<td>14</td>
+<td>april23.ThirdTestNGClass@6d00a15d</td></tr>
+<tr>
+<td title='april23.ThirdTestNGClass.LoginMultipletimes()'><b>LoginMultipletimes</b><br>Test class: april23.ThirdTestNGClass</td>
+<td></td>
+<td>12</td>
+<td>april23.ThirdTestNGClass@6d00a15d</td></tr>
+<tr>
+<td title='april23.ThirdTestNGClass.LoginMultipletimes()'><b>LoginMultipletimes</b><br>Test class: april23.ThirdTestNGClass</td>
+<td></td>
+<td>12</td>
+<td>april23.ThirdTestNGClass@6d00a15d</td></tr>
+<tr>
+<td title='april23.ThirdTestNGClass.LoginMultipletimes()'><b>LoginMultipletimes</b><br>Test class: april23.ThirdTestNGClass</td>
+<td></td>
+<td>10</td>
+<td>april23.ThirdTestNGClass@6d00a15d</td></tr>
+<tr>
+<td title='april23.ThirdTestNGClass.LoginMultipletimes()'><b>LoginMultipletimes</b><br>Test class: april23.ThirdTestNGClass</td>
+<td></td>
+<td>10</td>
+<td>april23.ThirdTestNGClass@6d00a15d</td></tr>
+<tr>
+<td title='april23.SecondTestNGClass.addition()'><b>addition</b><br>Test class: april23.SecondTestNGClass<br/>
+<a href="#Output-289595795" onClick='toggleBox("Output-289595795", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-289595795" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-289595795">
+Addition::522<br/>
+Executing Addition Test<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>april23.SecondTestNGClass@36d4b5c</td></tr>
+<tr>
+<td title='april23.FirstTestNGClass.cbanking()'><b>cbanking</b><br>Test class: april23.FirstTestNGClass<br/>
+<a href="#Output-1240061104" onClick='toggleBox("Output-1240061104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1240061104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1240061104">
+Executing cbanking Test<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>april23.FirstTestNGClass@2ef5e5e3</td></tr>
+<tr>
+<td title='april23.SecondTestNGClass.division()'><b>division</b><br>Test class: april23.SecondTestNGClass<br/>
+<a href="#Output-1399904612" onClick='toggleBox("Output-1399904612", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1399904612" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1399904612">
+Addition::5.779220779220779<br/>
+Executing Addition Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>april23.SecondTestNGClass@36d4b5c</td></tr>
+<tr>
+<td title='april23.FirstTestNGClass.ibanking()'><b>ibanking</b><br>Test class: april23.FirstTestNGClass<br/>
+<a href="#Output-998208427" onClick='toggleBox("Output-998208427", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-998208427" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-998208427">
+Executing ibanking Test<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>april23.FirstTestNGClass@2ef5e5e3</td></tr>
+<tr>
+<td title='april23.SecondTestNGClass.multiplication()'><b>multiplication</b><br>Test class: april23.SecondTestNGClass<br/>
+<a href="#Output-735233477" onClick='toggleBox("Output-735233477", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-735233477" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-735233477">
+Addition::34265<br/>
+Executing Addition Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>april23.SecondTestNGClass@36d4b5c</td></tr>
+<tr>
+<td title='april23.FirstTestNGClass.pbanking()'><b>pbanking</b><br>Test class: april23.FirstTestNGClass<br/>
+<a href="#Output-1082434869" onClick='toggleBox("Output-1082434869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1082434869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1082434869">
+Executing pbanking Test<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>april23.FirstTestNGClass@2ef5e5e3</td></tr>
+</table><p>
+</body>
+</html>

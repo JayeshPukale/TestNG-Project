@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jayesh">
+<test name="Report" parallel="classes">
+<classes>
+<class name="april23.FirstTestNGClass">
+</class>
+<class name="april23.SecondTestNGClass">
+</class>
+<class name="april23.ThirdTestNGClass">
+</class>
+</classes>
+</test>
+</suite>
